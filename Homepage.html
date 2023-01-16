@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Book Program Discussion (BPD)</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body class="custom-background-color">
+
+
+<header>
+    <a class="home_button" href="#" ><h1>BOOK  PROGRAM  DISCUSSION</h1></a>
+    <div class="in_between"></div>
+
+    <nav>
+        <ul class="nav_links">
+            <li><a href="#">BOOKS</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">GET STARTED</a></li>
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">MEMBERS</a></li>
+        </ul>
+    </nav>
+
+
+
+    <a id="trigger-modal" class="custom-background-color" href="#">REGISTER</a>
+
+    <div id="registration" class="modal">
+
+        <div id="bookclubrego" class="custom-color">
+            <span class="close">&times;</span>
+
+            <form>
+                <h2 class="custom-color"> Registration Form</h2>
+                <div id="userDetails">
+
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Enter your first name"><br>
+
+                    <label for="surname">Last name:</label><br>
+                    <input type="text" id="surname" name="surname" placeholder="Enter your last name"><br>
+
+                    <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username" placeholder="Enter username"><br>
+
+                    <label for="password">Password:</label><br>
+                    <input type="text" id="password" name="password" placeholder="Enter password"><br>
+                </div>
+
+                <div id="addresses">
+                    <h3>Enter your address:</h3>
+                    <label for="home_address">Home address:</label><br>
+                    <input type="text" id="home_address" name="home_address" placeholder="Enter your home address"><br>
+
+                    <label for="work_address">Work address:</label><br>
+                    <input type="text" id="work_address" name="work_address" placeholder="Enter your work address(if you have)"><br>
+                </div>
+
+                <div id="contacts">
+                    <h3>Enter your contact details:</h3>
+                    <label for="mobile">Mobile number:</label><br>
+                    <input type="text" id="mobile" name="mobile" placeholder="Enter your mobile number"><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email" placeholder="Enter your email"><br>
+                </div>
+
+                <input class="submit" type="submit" value="Register" onClick="redirect()">
+            </form>
+        </div>
+    </div>
+
+
+</header>
+
+
+<main>
+    <div class="background-image">
+        <div class="search">
+            <input type="text" placeholder="search for books">
+        </div>
+
+        <div class="boxes">
+
+            </div>
+            <div class="box_one">
+                <div class="name_container">
+                    <div class="name">
+                        <a href="#">GET INVOLVED</a>
+                    </div>
+
+                    <div class="arrow">
+                        <a class="custom-color" href="#">></a>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <br>
+                    Meet new people...
+                    <br><br>
+                    Experience new and interesting reading adventures...
+                    <br><br>
+                    Whatever the reason you want to be part of a book group, we can help.
+                </div>
+
+                <div class="read_more">
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+
+
+            <div class="box_two">
+                <div class="name_container">
+                    <div class="name">
+                        <a href="#">BOOKS</a>
+                    </div>
+
+                    <div class="arrow">
+                        <a class="custom-color" href="#">></a>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <ul class="books">
+                        <li><a href="#"><u>Best books in history</u></a></li>
+                        <br>
+                        <li><a href="#"><u>Most readable memoirs</u></a></li>
+                        <br>
+                        <li><a href="#"><u>Book of the day</u></a></li>
+                        <br>
+                        <li><a href="#"><u>Books you can read in a day</u></a></li>
+                        <br>
+                        <li><a href="#"><u>Books we recommend</u></a></li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+
+
+        <footer>
+            <p>University of Auckland<p>
+            <p>Assignment 2</p>
+            <p>Vadim Reger</p>
+            <p>Vreg113</p>
+        </footer>
+</main>
+
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
